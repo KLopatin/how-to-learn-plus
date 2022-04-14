@@ -1,0 +1,19 @@
+.footer__column-link{
+    display: block;
+    line-height: 18px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer__column-link:hover {
+    color: red;
+    text-decoration:none;
+    transition: ease-out 0.5s;
+}
+
+
+
+
+
