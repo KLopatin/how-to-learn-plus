@@ -19,7 +19,7 @@
       Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
       <a href="#techniques" class="header__link">Узнать &xrarr;</a>
     </p>
-    <img class="header__main-illustration" src="../first-project__startkit/images/two_again.png" alt="Опять двойка">
+    <img class="header__main-illustration" src="./images/two_again.png" alt="Опять двойка">  <!--Прописаны корректные, более короткие пути-->
     <div class="header__square-pic rotation"></div>
   </header>
 
@@ -48,30 +48,30 @@
       <p class="section-subtitle"> Пять практик от Барбары Оакли </p>
       <div class="cards">
         <div class="cards__item">
-          <img class="cards__image" src="../first-project__startkit/images/cards-attention.png" alt="Два вида внимания">
+          <img class="cards__image" src="./images/cards-attention.png" alt="Два вида внимания">
           <h3 class="cards__title">Два вида внимания</h3>
           <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
             мышление.
           </p>
         </div>
         <div class="cards__item">
-          <img class="cards__image" src="../first-project__startkit/images/cards-recall.png" alt="Воспоминание">
+          <img class="cards__image" src="./images/cards-recall.png" alt="Воспоминание">  <!--Прописаны корректные, более короткие пути для всех cards__image-->
           <h3 class="cards__title">Recall</h3>
           <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
         </div>
         <div class="cards__item">
-          <img class="cards__image" src="../first-project__startkit/images/cards-interliving.png" alt="Интерливинг">
+          <img class="cards__image" src="./images/cards-interliving.png" alt="Интерливинг">
           <h3 class="cards__title">Интерливинг</h3>
           <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
         </div>
         <div class="cards__item">
-          <img class="cards__image" src="../first-project__startkit/images/cards-question.png" alt="Вопросы">
+          <img class="cards__image" src="./images/cards-question.png" alt="Вопросы">
           <h3 class="cards__title">Вопросы</h3>
           <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
             волнует.</p>
         </div>
         <div class="cards__item">
-          <img class="cards__image" src="../first-project__startkit/images/cards-competence.png"
+          <img class="cards__image" src="./images/cards-competence.png"
             alt="Иллюзия компетентности">
           <h3 class="cards__title">Иллюзия компетентности</h3>
           <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
@@ -159,10 +159,10 @@
         <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
           миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут
           получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-        <p class="khan__quote-author">Джордж Лукас</p>
+        <h3 class="khan__quote-author">Джордж Лукас</h3> <!--Тег <p> заменен на <h3>-->
         <p class="khan__quote-author-subline">Кинорежисёр, продюсер</p>
         <div class="khan__book-container">
-          <div class="khan__book-pic"></div>
+          <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Книга Салмана Хана"> <!--Задано контентное позиционирование для картинки-->
           <a href="#" target="_blank" class="khan__buy-link">Купить книгу &xrarr;</a>
         </div>
       </div>
@@ -222,13 +222,10 @@
       <h2 class="section-title"> Полезные ресурсы </h2>
       <p class="section-subtitle"> Больше материалов о техниках и лайфхаках обучения </p>
       <div class="resources__logo-zone">
-        <div class="resources__link"> <a href="#"><img src="./images/logo/resources-arzamas.svg" alt="Arzamas"> </a>
-        </div>
-        <div class="resources__link"> <a href="#"><img src="./images/logo/resources-n1.svg" alt="N+1"> </a> </div>
-        <div class="resources__link"> <a href="#"><img src="./images/logo/resources-strelka.svg" alt="Strelka"> </a>
-        </div>
-        <div class="resources__link"> <a href="#"><img src="./images/logo/resources-polka.svg" alt="Полка"> </a> </div>
-      </div>
+         <a class="resources__link" href="#"><img src="./images/logo/resources-arzamas.svg" alt="Arzamas"> </a>  <!--Убраны лишние div обертки-->
+         <a class="resources__link" href="#"><img src="./images/logo/resources-n1.svg" alt="N+1"> </a> 
+         <a class="resources__link" href="#"><img src="./images/logo/resources-strelka.svg" alt="Strelka"> </a>
+         <a class="resources__link" href="#"><img src="./images/logo/resources-polka.svg" alt="Полка"> </a> 
     </section>
   </main>
 
@@ -253,14 +250,14 @@
         <h3 class="footer__column-heading">Соцсети</h3>
         <ul class="footer__column-links">
           <li class="footer__column-item"><a href="#" target="_blank" class="footer__column-link"><img
-                class="footer__social-icon" src="../first-project__startkit/images/facebook_white.svg"
+                class="footer__social-icon" src="./images/facebook_white.svg"
                 alt="Facebook">Фэйсбук</a></li>
           <li class="footer__column-item"><a href="#" target="_blank" class="footer__column-link"><img
-                class="footer__social-icon" src="../first-project__startkit/images/vk_white.svg"
+                class="footer__social-icon" src="./images/vk_white.svg"
                 alt="ВКонтакте">ВКонтакте</a></li>
           <li class="footer__column-item"><a href="#" target="_blank" class="footer__column-link"><img
-                class="footer__social-icon" src="../first-project__startkit/images/instagram_white.svg"
-                alt="Instagram">Инстаграм</a></li>
+                class="footer__social-icon" src="./images/instagram_white.svg"
+                alt="Instagram">Инстаграм</a></li>      <!--Прописаны корректные, более короткие пути для всех footer__social-icon-->
         </ul>
       </nav>
 
