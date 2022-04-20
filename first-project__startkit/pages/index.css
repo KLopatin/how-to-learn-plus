@@ -83,7 +83,3 @@
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__column-item/footer__column-item.css);
-
-div{
-    border: 1px solid red;
-}
